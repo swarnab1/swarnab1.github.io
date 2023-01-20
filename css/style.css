@@ -44,3 +44,8 @@
         background-color: transparent;
         text-decoration: none;
 }
+    .responsive {
+    width: 100%;
+    max-width: 512px;
+    height: auto;
+}
