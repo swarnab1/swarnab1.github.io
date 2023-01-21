@@ -1,51 +1,74 @@
-* Body {  
+* Body{  
       font-family: Calibri, Helvetica, sans-serif;
       font-weight: bold;
       background-color: #23272A;    
-    }  
-    button {   
+}  
+button
+{   
             background-color: #23272A;
             color: white;       
-    }   
+}   
 
-     .container {   
+.container
+{   
             padding: 25px;
             background-color: #2C2F33; 
-    }   
-    div.footer {
+}   
+
+div.footer
+{
         text-align: center;
         color: white;
-    }
-    div.b {
+}
+
+div.b
+{
         text-align: right;
         color: white;
-    }
-    div.main {
+}
+
+div.main
+{
         text-align: left;
         color: white;
-    }
-    a:link {
+}
+
+a:link
+{
         color: white;
         background-color: transparent;
         text-decoration: none;
 }
-    a:visited {
+
+a:visited
+{
         color: white;
         background-color: transparent;
         text-decoration: none;
 }
-    a:hover {
+
+a:hover
+{
         color: #7289DA;
         background-color: transparent;
         text-decoration: none;
 }
-    a:active {
+
+a:active
+{
         color: white;
         background-color: transparent;
         text-decoration: none;
 }
-    .responsive {
+
+.responsive 
+{
     width: 100%;
     max-width: 512px;
     height: auto;
+}
+
+.timeupdated
+{
+        font-size: 16px;
 }
