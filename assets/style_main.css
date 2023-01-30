@@ -1,0 +1,119 @@
+.btn-sorse {
+    color: #fff;
+    background-color: #ffa500;
+    border-color: #ffa500;
+}
+
+.btn-sorse:hover {
+    color: #fff;
+    background-color: #de9000;
+    border-color: #de9000;
+}
+
+.btn-sorse:focus, .btn-sorse.focus {
+    color: #fff;
+    background-color: #de9000;
+    border-color: #de9000;
+    box-shadow: 0 0 0 0.2rem rgba(255, 165, 0, 0.5);
+}
+
+.btn-sorse.disabled, .btn-sorse:disabled {
+    color: #fff;
+    background-color: #de9000;
+    border-color: #de9000;
+}
+
+.btn-sorse:not(:disabled):not(.disabled):active, .btn-sorse:not(:disabled):not(.disabled).active,
+.show > .btn-sorse.dropdown-toggle {
+    color: #fff;
+    background-color: #de9000;
+    border-color: #de9000;
+}
+
+.btn-sorse:not(:disabled):not(.disabled):active:focus, .btn-sorse:not(:disabled):not(.disabled).active:focus,
+.show > .btn-sorse.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 165, 0, 0.5);
+}
+
+.navbar-brand-image-josh {
+    padding-top: 0.35rem;
+}
+
+.back-image-js {
+    padding-bottom: 0.20rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    .navbar-brand-image-josh {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .navbar-brand-image-zoomed {
+        display: none
+    }
+}
+
+.dropdown-item-josh:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: skyblue;
+    transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out,
+    border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+}
+
+.dropdown-item-steam:focus {
+    color: #16181b;
+    text-decoration: none;
+    background-color: cornflowerblue;
+    transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out,
+    border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+}
+
+.dropdown-item-github:focus {
+    color: #16181b;
+    text-decoration: none;
+    background-color: white;
+    transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out,
+    border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+}
+
+.dropdown-item-youtube:focus {
+    color: #16181b;
+    text-decoration: none;
+    background-color: red;
+    transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out,
+    border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+}
+
+.dropdown-item-twitch:focus {
+    color: #16181b;
+    text-decoration: none;
+    background-color: mediumpurple;
+    transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out,
+    border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+}
+
+.display-dncard-josh {
+    display: none;
+}
+
+.img-thumbnail {
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    width: 100%;
+    max-width: 512px;
+    height: auto;
+}
+
+.img-center {
+    display: block;
+    width: 100%;
+    max-width: 512px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
