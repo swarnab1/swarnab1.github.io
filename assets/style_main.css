@@ -1,3 +1,14 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/*nav {
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}*/
+
 .btn-sorse {
     color: #fff;
     background-color: #ffa500;
@@ -55,6 +66,18 @@
     }
 }
 
+@media only screen and (min-width: 1000px) {
+    .use-restrict-zoom {
+        display: none
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .use-restrict-anti-zoom {
+        display: none;
+    }
+}
+
 .dropdown-item-josh:hover {
     color: #16181b;
     text-decoration: none;
@@ -64,7 +87,7 @@
 }
 
 .dropdown-item-steam:focus {
-    color: #16181b;
+    color: white;
     text-decoration: none;
     background-color: cornflowerblue;
     transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out,
@@ -80,7 +103,7 @@
 }
 
 .dropdown-item-youtube:focus {
-    color: #16181b;
+    color: white;
     text-decoration: none;
     background-color: red;
     transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out,
@@ -91,6 +114,14 @@
     color: #16181b;
     text-decoration: none;
     background-color: mediumpurple;
+    transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out,
+    border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+}
+
+.dropdown-item-discord:focus {
+    color: white;
+    text-decoration: none;
+    background-color: darkblue;
     transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out,
     border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
 }
